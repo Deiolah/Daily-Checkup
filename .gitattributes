@@ -1,2 +1,37 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Version 1
+# print("Please enter your name")
+# name = input()
+# print ('Hey '+ name)
+# print("What would you like to do today?")
+# do = input()
+# print('Then lets do ' + do + '!')
+# print ("Are you Ok?")
+# print ("Yes = 1")
+# print ("No = 2")
+# Yes = 1
+# No = 2
+# Ok = input ("Enter 1 or 2: ")
+# if Ok == "1":
+#     print ("I'm glad you are!")
+# if Ok == "2":
+#     print ("I'm sorry, what happened?")
+
+
+# Version 2
+print("Hi, what's your name?")
+name = input()
+print ('Hey '+ name)
+print("What would you like to do today?")
+do = input()
+print('Then lets ' + do + '!')
+print ("Are you Ok?")
+
+Ok = input ("Enter yes or no or maybe or i dont know: ")
+if Ok == "yes":
+    print ("I'm glad you are!")
+if Ok == "no":
+    print ("I'm sorry, what happened?")
+if Ok == "maybe":
+    print ("yeah, sometimes we dont even know (╥﹏╥)")
+if Ok == "I dont know":
+    print ("yeah, I dont know either, they think i have a bug (╥﹏╥)")
